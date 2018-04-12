@@ -8,7 +8,7 @@
   }
   .header,
   .footer{
-    background-color:maroon;
+    background-color:Black;
     color:white;
     padding:15px;
   }
