@@ -1,0 +1,98 @@
+<!DOCTY html>
+<html>
+
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+
+      .header,
+      .footer {
+        background-color: Black;
+        color: white;
+        padding: 15px;
+      }
+
+      .column {
+        float: left;
+        padding: 15px;
+      }
+
+      .column img {
+        float: right;
+      }
+
+      img {
+        width: 300px;
+        height: 200px;
+      }
+
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .menu {
+        width: 20%;
+      }
+
+      .content {
+        width: 70%;
+        float: right;
+      }
+
+      .more {
+        float: right;
+      }
+
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .menu li {
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: teal;
+        color: #ffffff
+      }
+
+      .menu li:hover {
+        background-color: #0099cc;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1> Electronic </h1>
+    </div>
+    <div class="clearfix">
+      <div class="column menu">
+      </div>
+      <div class="column content">
+        <img src="http://a2b2.in/wp-content/uploads/2014/12/1-about.jpg">
+        <h1>What is electronics?</h1>
+        <p>Equipment or technology involving or utilizing low voltage or current integrated circuits or components, usually for transmitting and / or processing analog or digital data
+        </p>
+        <p></p>
+      </div>
+      <div class="column content more">
+        <img src="http://www.aboriginalaccess.ca/sites/aboriginalaccess.ca/files/img/hero/electronic-systems.jpg">
+        <h1>Profile about electronic</h1>
+        <p>Electronics is the science of dealing with the development and application of devices and systems involving the flow of electrons in a vacuum, in gaseous media, and in semiconductors. Electronics deals with electrical circuits that involve active
+          electrical components such as vacuum tubes, transistors, diodes, integrated circuits, optoelectronics, and sensors, associated passive electrical components, and interconnection technologies. Commonly, electronic devices contain circuitry consisting
+          primarily or exclusively of active semiconductors supplemented with passive elements; such a circuit is described as an electronic circuit </p>
+      </div>
+    </div>
+    <div class="footer">
+      <p> het</p>
+    </div>
+  </body>
+
+</html>
